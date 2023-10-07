@@ -73,8 +73,10 @@ let id = 0;
 
 filmes.forEach((filme) => {
   id = id + 1;
-  filmesComId.push(id);
-  filmesComId.push(filme);
+  filmesComId.push({
+    id,
+    ...filme,
+  });
 });
 
 console.log(filmesComId);

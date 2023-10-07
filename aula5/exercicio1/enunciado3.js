@@ -70,6 +70,6 @@ const filmes = [
 const filmeFantasia = [];
 
 filmes.forEach((filme) => {
-  
-});
+
+}); 
 console.log(filmeFantasia);
