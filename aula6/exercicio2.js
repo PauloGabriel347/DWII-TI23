@@ -71,3 +71,13 @@ const paises = [
     ],
   },
 ];
+
+const paisesGanhadores = paises.filter((pais) => {
+  const ganhadores = pais.medalhas.some((medalha) => {
+    if (medalha.ganhadores.length >= 1) {
+      return medalha;
+    }
+  });
+  return ganhadores;
+});
+console.log(paisesGanhadores);
