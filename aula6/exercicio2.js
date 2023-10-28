@@ -80,4 +80,3 @@ const paisesGanhadores = paises.filter((pais) => {
   });
   return ganhadores;
 });
-console.log(paisesGanhadores);
