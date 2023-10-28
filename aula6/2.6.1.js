@@ -21,7 +21,3 @@ const alunos = [
     ],
   },
 ];
-
-const mediaGeral = alunos.map((aluno) => {
-  const notaTotal = aluno.notas
-});

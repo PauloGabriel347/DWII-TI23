@@ -80,3 +80,12 @@ const paisesGanhadores = paises.filter((pais) => {
   });
   return ganhadores;
 });
+
+const quantidadeMedalhas = paises.map((pais) => {
+  let ganhadores = pais.medalhas.some((medalha) => {
+    let conta = 0;
+    conta = conta + medalha.ganhadores.length;
+    console.log(conta);
+    return ganhadores;
+  });
+});
